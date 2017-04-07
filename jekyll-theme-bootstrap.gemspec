@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-bootstrap"
-  spec.version       = '0.0.2'
+  spec.version       = "0.0.3"
   spec.authors       = ["matrixfox"]
   spec.email         = ["matrixfox@gmail.com"]
 
   spec.summary       = "Jekyll Bootstrap Theme"
   spec.description   = "This is a theme for Jekyll that is built from the Bootstrap project."
-  spec.homepage      = "http://matrixfox.com"
+  spec.homepage      = "https://github.com/matrixfox/jekyll-theme-bootstrap"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
