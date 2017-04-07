@@ -1,27 +1,20 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll/theme/bootstrap/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-bootstrap"
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ["matrixfox"]
   spec.email         = ["matrixfox@gmail.com"]
 
-  spec.summary       = "Jekyll Theme"
-  spec.description   = "This is a theme for Jekyll that is built from the bootstrap project."
+  spec.summary       = "Jekyll Bootstrap Theme"
+  spec.description   = "This is a theme for Jekyll that is built from the Bootstrap project."
   spec.homepage      = "http://matrixfox.com"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
-    f.match(%r{^(test|spec|features)/})
+  spec.files         = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.platform      = Gem::Platform::RUBY
+  spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
