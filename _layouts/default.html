@@ -17,9 +17,39 @@
     <![endif]-->
   </head>
   <body>
-    <section class="container">
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <a class="blog-nav-item {% if page.url == '/' %}active{% endif %} {% if page.path contains '_posts' %}active{% endif %}" href="/">Home</a>
+          <a class="blog-nav-item {% if page.url == '/about/' %}active{% endif %}" href="/about/">About</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
       {{content}}
-    </section>
+    </div>
+    <footer>
+      <noscript>
+        © {{ site.title }} 2017 *ENABLE JAVASCRIPT*
+      </noscript>
+      <script type="text/javascript">
+        var d = new Date();
+        var output = d.getFullYear()
+        document.write("<p><a href=\"https://github.com/matrixfox/jekyll-theme-bootstrap\">{{ site.title }}</a> "+ output +"</p>");
+      </script>
+      <p><a href="#">Back to top</a></p>
+    </footer>
     <!-- jQuery from Google minified JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap Latest compiled and minified JavaScript -->
