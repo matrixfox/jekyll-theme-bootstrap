@@ -1,3 +1,14 @@
+## v0.0.4
+
+* updated meta in default.html
+* added bootstrap upgrade script
+* updated README
+* remove Rakefile
+* added .travis.yml
+* added build and version info to README.md
+* removed bootstrap and script/update
+* added bootstrap-sass
+
 ## v0.0.3
 
 * updated homepage url in gemspec

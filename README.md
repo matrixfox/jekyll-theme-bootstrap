@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/matrixfox/jekyll-theme-bootstrap.svg?branch=master)](https://travis-ci.org/matrixfox/jekyll-theme-bootstrap) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-bootstrap.svg)](https://badge.fury.io/rb/jekyll-theme-bootstrap)
 
-This Bootstrap theme is made for Jekyll. You can use the default template or make your own.
+Jekyll Bootstrap Theme is the best of both worlds. Combing the power of Jekyll with Bootstrap. You may use the default template, or make your own.
 
 ## Usage
 
@@ -31,8 +31,6 @@ If you'd like to preview the theme locally (for example, in the process of propo
 5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
-
-To update to the latests Bootstrap version run `script/update` and press `y` to continue.
 
 ## Contributing
 

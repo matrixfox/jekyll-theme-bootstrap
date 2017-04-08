@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-bootstrap"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["matrixfox"]
   spec.email         = ["matrixfox@gmail.com"]
 
@@ -16,5 +16,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
+  spec.add_development_dependency "bootstrap-sass", "~> 3.3.6"
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
