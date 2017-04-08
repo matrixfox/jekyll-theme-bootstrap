@@ -16,6 +16,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
-  spec.add_development_dependency "bootstrap-sass", "~> 3.3.6"
+  spec.add_development_dependency "bootstrap-sass", "~> 3.3"
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
