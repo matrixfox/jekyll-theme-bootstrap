@@ -1,4 +1,6 @@
-# Jekyll::Theme::Bootstrap
+# Jekyll Bootstrap Theme
+
+[![Build Status](https://travis-ci.org/matrixfox/jekyll-theme-bootstrap.svg?branch=master)](https://travis-ci.org/matrixfox/jekyll-theme-bootstrap) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-bootstrap.svg)](https://badge.fury.io/rb/jekyll-theme-bootstrap)
 
 This Bootstrap theme is made for Jekyll. You can use the default template or make your own.
 
