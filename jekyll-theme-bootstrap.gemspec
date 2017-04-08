@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-bootstrap"
-  spec.version       = "0.0.4"
+  spec.version       = "0.0.5"
   spec.authors       = ["matrixfox"]
   spec.email         = ["matrixfox@gmail.com"]
 
