@@ -1,3 +1,9 @@
+## v0.0.5
+
+* fixed pessimistic dependency
+* added gh-pages branch
+* added basic blog theme
+
 ## v0.0.4
 
 * updated meta in default.html
@@ -8,6 +14,7 @@
 * added build and version info to README.md
 * removed bootstrap and script/update
 * added bootstrap-sass
+* fixed bootstrap icon path
 
 ## v0.0.3
 
