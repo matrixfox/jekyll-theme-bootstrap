@@ -1,39 +1,40 @@
 # Jekyll::Theme::Bootstrap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jekyll/theme/bootstrap`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'jekyll-theme-bootstrap'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-bootstrap
+This Bootstrap theme is made for Jekyll. You can use the default template or make your own.
 
 ## Usage
 
-TODO: Write usage instructions here
+To start using the Bootstrap Jekyll Theme:
+
+1. Add the following to your site's `_config.yml`:
+
+  ```yml
+  theme: jekyll-theme-bootstrap
+  ```
+
+2. Optionally, add the following to your site's `Gemfile`:
+
+  ```ruby
+  gem "github-pages", group: :jekyll_plugins
+  ```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+1. Clone down the theme's repository (`git clone https://github.com/matrixfox/jekyll-theme-bootstrap`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+
+To update to the latests Bootstrap version run `script/update` and press `y` to continue.
 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/matrixfox/jekyll-theme-bootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 
 ## License
 
