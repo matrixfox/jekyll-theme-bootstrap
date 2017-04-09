@@ -2,6 +2,7 @@
 layout: default
 title:  "New feature"
 date:   2017-04-06 12:06:05 -0700
+author: Mark
 categories: another blog
 ---
 

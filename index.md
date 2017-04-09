@@ -12,7 +12,7 @@ layout: default
 	{% for post in site.posts %}
 	<figure class="blog-post">
 		<a href="/jekyll-theme-bootstrap/{{ post.url }}"><h2 class="blog-post-title">{{ post.title }}</h2></a>
-		<p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
+		<p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }} by {{ post.author }}</p>
 		<figcaption class="blog-description">{{ post.content | strip_html | truncatewords: 50 }}</figcaption>
 	</figure>
 	{% else %}

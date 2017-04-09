@@ -2,6 +2,7 @@
 layout: default
 title:  "Another blog post"
 date:   2017-04-07 12:06:05 -0700
+author: Jake
 categories: another blog
 ---
 

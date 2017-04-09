@@ -2,6 +2,7 @@
 layout: default
 title:  "Sample blog post"
 date:   2017-04-08 12:06:05 -0700
+author: Chris
 categories: sample blog
 ---
 
